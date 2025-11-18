@@ -17,11 +17,22 @@ A comprehensive, hands-on guide to building your first emulator from scratch. Th
 
 This tutorial is organized progressively:
 
+### Core Tutorial
 1. **[Core Concepts](docs/01-core-concepts.md)**: Fundamental emulation principles
 2. **[CPU Emulation](docs/02-cpu-emulation.md)**: How to emulate a processor
 3. **[Memory Systems](docs/03-memory-systems.md)**: Implementing RAM and addressing
 4. **[Building CHIP-8](docs/04-building-chip8.md)**: Step-by-step emulator construction
 5. **[Testing and Debugging](docs/05-testing-debugging.md)**: Validating your emulator
+
+### Additional Resources
+- **[Comprehensive Resources Guide](docs/RESOURCES.md)**: Extensive list of books, courses, websites, and learning paths
+- **[Practical Applications](docs/APPLICATIONS.md)**: Real-world uses of emulation knowledge (careers, industries, technologies)
+- **[Advanced Topics](docs/ADVANCED-TOPICS.md)**: JIT compilation, cycle accuracy, optimization, and more
+
+### Code Examples
+- **[Complete CHIP-8 Emulator](src/chip8.py)**: Fully working emulator with all 35 opcodes
+- **[Tutorial: Basic CPU](src/tutorial/step1_basic_cpu.py)**: Simplified learning version
+- **[Stack-Based VM](src/examples/simple_vm.py)**: Alternative architecture example
 
 ## Our Project: CHIP-8 Emulator
 
